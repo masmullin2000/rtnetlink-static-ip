@@ -5,6 +5,8 @@ use futures::stream::TryStreamExt;
 use ipnetwork::IpNetwork;
 use rtnetlink::packet::nlas::link::Nla;
 
+pub use rtnetlink;
+
 pub async fn get_links(handle: &rtnetlink::Handle) -> Result<Vec<(u32, String)>> {
     let mut rc = Vec::new();
 
