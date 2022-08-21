@@ -1,5 +1,5 @@
 [package]
-name = "rtnetlink-learn"
+name = "rtnetlink-static-ip"
 version = "0.1.0"
 edition = "2021"
 
